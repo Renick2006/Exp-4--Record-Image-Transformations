@@ -81,7 +81,7 @@ import matplotlib.pyplot as plt
 
 Read the input image in color mode.
 ```
-image = cv2.imread("baseball.jpg", cv2.IMREAD_COLOR)
+image = cv2.imread("dp.jpg", cv2.IMREAD_COLOR)
 
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
@@ -91,6 +91,9 @@ plt.title("Original Image")
 plt.axis("off")
 plt.show()
 ```
+
+<img width="365" height="480" alt="image" src="https://github.com/user-attachments/assets/56d79385-a207-4b17-9a0b-e141795a1994" />
+
 
 Image Translation
 ```
@@ -118,6 +121,8 @@ plt.axis("off")
 
 plt.show()
 ```
+<img width="692" height="406" alt="image" src="https://github.com/user-attachments/assets/b22fa435-ed32-4db5-8e75-443b97054933" />
+
 
 Image Scaling
 ```
@@ -146,6 +151,9 @@ plt.axis("off")
 
 plt.show()
 ```
+
+<img width="1045" height="397" alt="image" src="https://github.com/user-attachments/assets/2ee0a5b2-56f2-455e-a546-96e7aa6a2b28" />
+
 
 Image Shearing
 ```
@@ -187,6 +195,9 @@ plt.axis("off")
 plt.show()
 ```
 
+<img width="1037" height="402" alt="image" src="https://github.com/user-attachments/assets/c48619c3-d334-4f83-838e-c3e95c731ee3" />
+
+
 Image Reflection
 ```
 horizontal_flip = cv2.flip(image, 1)
@@ -222,6 +233,9 @@ plt.axis("off")
 plt.show()
 ```
 
+<img width="1042" height="342" alt="image" src="https://github.com/user-attachments/assets/f7087499-dce2-41d3-8533-6663830ddcae" />
+
+
 Image Rotation
 ```
 rows, cols = image.shape[:2]
@@ -256,53 +270,13 @@ plt.axis("off")
 plt.show()
 ```
 
+<img width="1075" height="410" alt="image" src="https://github.com/user-attachments/assets/6a750743-87d7-46ef-82ae-e7a308b90c19" />
+
+
 
 ---
 
-##  Output
 
-### Image Translation
-- Original image is displayed  
-- Translated image (shifted right and down) is displayed
-
-<img width="932" height="297" alt="image" src="https://github.com/user-attachments/assets/a9ee917b-2764-4326-8d1d-0238c440689a" />
-
-
-### Image Scaling
-- Original image is displayed  
-- Downscaled image (0.5×) is displayed  
-- Upscaled image (2×) is displayed
-
-<img width="935" height="197" alt="image" src="https://github.com/user-attachments/assets/7f8b15b7-df4c-4f7e-915b-5a9684fb9823" />
-
-
-### Image Shearing
-- Original image is displayed  
-- Horizontally sheared image is displayed  
-- Vertically sheared image is displayed
-
-<img width="925" height="225" alt="image" src="https://github.com/user-attachments/assets/0fa5a9d8-f243-4f06-9805-22bd08f1271b" />
-
-
-
-### Image Reflection
-- Original image is displayed  
-- Horizontally flipped image is displayed  
-- Vertically flipped image is displayed  
-- Both-axis flipped image is displayed
-
-<img width="922" height="150" alt="image" src="https://github.com/user-attachments/assets/7638b023-e1a2-4a36-b8d3-60fb187aebe2" />
-  
-
-### Image Rotation
-- Original image is displayed  
-- 45° rotated image is displayed  
-- 90° rotated image is displayed  
-
-<img width="926" height="193" alt="image" src="https://github.com/user-attachments/assets/5aa0a7a6-5e74-4838-9052-83679e79f6ef" />
-
-
----
 
 ##  Result
 
